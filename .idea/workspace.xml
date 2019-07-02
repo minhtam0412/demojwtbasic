@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a558005-347f-4081-b8d9-b543934ff7fe" name="Default Changelist" comment="" />
+    <list default="true" id="5a558005-347f-4081-b8d9-b543934ff7fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="187">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -63,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/signin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+            <state relative-caret-position="415">
+              <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -100,6 +102,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -111,9 +116,9 @@
         <option value="$PROJECT_DIR$/dto/Credentials.go" />
         <option value="$PROJECT_DIR$/model/login.go" />
         <option value="$PROJECT_DIR$/model/users.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/controller/ping.go" />
         <option value="$PROJECT_DIR$/controller/signin.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -123,6 +128,7 @@
     <option name="width" value="2160" />
     <option name="height" value="1317" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -136,21 +142,6 @@
               <item name="MyAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyAPI" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -161,6 +152,7 @@
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GoToClass.toSaveIncludeLibraries" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -194,11 +186,12 @@
     </configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1935" height="1184" extended-state="7" />
+    <frame x="-7" y="-7" width="1935" height="1184" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Database" order="0" weight="0.2496" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18666667" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1392" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298479" />
@@ -209,7 +202,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3298479" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3298479" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3298479" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2338403" />
       <window_info anchor="right" id="Structure" order="0" side_tool="true" weight="0.25" />
     </layout>
   </component>
@@ -234,6 +227,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model/users.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dto/Claims.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -265,24 +265,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/users.go">
+    <entry file="file://$PROJECT_DIR$/controller/signin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="415">
+          <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/signin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="108" column="62" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+        <state relative-caret-position="187">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,6 @@ func main() {
 	http.HandleFunc("/welcome", controller.Welcome)
 	http.HandleFunc("/refresh", controller.Refresh)
 
-	// start the server on port 8000
+	// start the server on port 4587
 	log.Fatal(http.ListenAndServe(":4587", nil))
 }
